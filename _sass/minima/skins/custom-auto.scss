@@ -1,0 +1,20 @@
+@charset "utf-8";
+// Customisation of the base minima auto, setting some colours
+// See https://github.com/jekyll/minima/blob/master/_sass/minima/skins/auto.scss
+
+// Dark mode
+// $dm-brand-color: #e6d3b0;
+$dm-brand-color: #ffa600;
+$dm-link-base-color: #2AA3A3;
+
+// Light mode
+$lm-brand-color: #c76f0a;
+$lm-link-base-color: #2AA3A3;
+$lm-text-color: #586e75;
+$lm-background-color: #fdf6e3;
+$lm-code-background-color: #eee8d5;
+
+$color-scheme-auto: false;
+$color-scheme-dark: false;
+
+@import "minima/skins/auto";
